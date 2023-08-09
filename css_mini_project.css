@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+#nav_bar{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0px 2px 10px #b2da1633;
+    background: #e0dbdb;
+    z-index: 999;
+
+}
+
+.class_ul{
+    list-style: none;
+    padding: 20px 0px;
+    vertical-align: middle;
+}
+.class_li{
+    display: inline-block;
+    margin: 10px;
+    padding-bottom: 0px;
+}
+.class-a{
+    text-decoration: none;
+    color: #474646;
+    font-weight: bold;
+}
+.class-a:hover{
+    color: black;
+    font-size: large;
+}
+h1{
+    font-size: 50px;
+}
+.gold{
+   background: linear-gradient(#e89a9a ,#8f8ffa);
+   padding: 20px 50px;
+   height: 100%;
+}
+.div1 > img{
+    width: 200px;
+
+}
+.gold > section{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.div2{
+    float: right;
+    margin-left: 100px;
+}
+.div4{
+    float: right;
+    margin-left: 50px;
+}
+.div3{
+    float: left;
+    margin-right: 50px;
+}
+.chat_img img{
+    width: 150px;
+
+}
+.chat_img{
+    position: fixed;
+    
+    bottom: 10px;
+    right: 10px;
+}
